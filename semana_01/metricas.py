@@ -128,3 +128,16 @@ pd.Series({"model": reg, "features":features}).to_pickle("model_feliz.pkl")
 
 
 df_analise.columns
+
+
+# %%
+
+import pandas as pd
+
+url = "https://docs.google.com/spreadsheets/d/1YQBQ3bu1TCmgrRch1gzW5O4Jgc8huzUSr7VUkxg0KIw/export?gid=283387421&format=csv"
+
+df = pd.read_csv(url)
+df.head()
+
+df.columns
+
